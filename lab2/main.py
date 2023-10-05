@@ -4,7 +4,7 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 import matplotlib
 matplotlib.use('TkAgg')
 
-data = pd.read_csv('C:/Users/solidus66/OneDrive/ВГУ/4 курс 1 сем/ТИИ/lab2/milk.csv')
+data = pd.read_csv('milk.csv')
 
 model = SARIMAX(data['milk'], order=(1, 1, 1), seasonal_order=(1, 1, 1, 12))
 results = model.fit(disp=False)
