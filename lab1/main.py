@@ -8,7 +8,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
-file_path = 'C:/Users/solidus66/OneDrive/ВГУ/4 курс 1 сем/ТИИ/lab1/computer.dat'
+file_path = 'computer.dat'
 data = pd.read_csv(file_path, sep='\t')
 
 selected_variables = ['V1A', 'V1B', 'V1C', 'V2A', 'V2B', 'V2C', 'V2D', 'V2E', 'V2F', 'V3A', 'V3B', 'V3C', 'V4A', 'V4B',
