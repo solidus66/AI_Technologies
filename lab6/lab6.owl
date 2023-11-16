@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#РастётВМесте -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#РастётВМесте"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Высота -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Высота"/>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Название -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Название"/>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Период_цветения -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Период_цветения"/>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Цвет -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Цвет"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Дерево -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Дерево">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Растение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Куст -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Куст">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Растение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Лес -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Лес">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Место_обитания"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Место_обитания -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Место_обитания"/>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Поля -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Поля">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Место_обитания"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Поляна -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Поляна">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Место_обитания"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Растение -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Растение"/>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Трава -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Трава">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Растение"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Цветок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Цветок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Растение"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Дуб -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Дуб">
+        <rdf:type rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Дерево"/>
+        <РастётВМесте rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Тёмный_лес"/>
+        <Высота>20 м</Высота>
+        <Название>Дуб</Название>
+        <Цвет>Зелёный</Цвет>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Лилия -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Лилия">
+        <rdf:type rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Куст"/>
+        <РастётВМесте rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Луг_с_цветами"/>
+        <Название>Лилия</Название>
+        <Период_цветения>Лето</Период_цветения>
+        <Цвет>Белый, розовый, жёлтый</Цвет>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Луг_с_цветами -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Луг_с_цветами">
+        <rdf:type rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Поляна"/>
+        <Цвет>Множество цветов</Цвет>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Поле -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Поле">
+        <rdf:type rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Поля"/>
+        <Цвет>Множество цветов</Цвет>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Пшеница -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Пшеница">
+        <rdf:type rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Трава"/>
+        <РастётВМесте rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Поле"/>
+        <Высота>70 см</Высота>
+        <Название>Пшеница</Название>
+        <Период_цветения>Весна - лето</Период_цветения>
+        <Цвет>Золотистый</Цвет>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Роза -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Роза">
+        <rdf:type rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Цветок"/>
+        <РастётВМесте rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Луг_с_цветами"/>
+        <Высота>50 см</Высота>
+        <Название>Роза</Название>
+        <Период_цветения>Весна - лето</Период_цветения>
+        <Цвет>Красный, розовый</Цвет>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Тёмный_лес -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Тёмный_лес">
+        <rdf:type rdf:resource="http://www.semanticweb.org/solidus66/ontologies/2023/10/untitled-ontology-8#Лес"/>
+        <Цвет>Тёмные оттенки</Цвет>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
